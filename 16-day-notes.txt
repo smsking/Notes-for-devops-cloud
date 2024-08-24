@@ -1,0 +1,43 @@
+What is adhoc command in ansible?
+
+	it is ansible command line to run modules against nodes directly, instead of playbooks. some urgency purposes.
+	
+variables
+data types
+functions
+loops
+conditions
+------------
+Q: what is mean variable?
+
+A:DRY --> dont repeat yourself
+define/declare the variable. assign value to it
+
+A=10
+
+in shell script we declare like this
+"$A"
+but in ansible we declare with 2 flower brackets {{}}
+
+
+variables as args
+variables from user prompt
+
+inheritance and overriding
+
+overriding
+
+echo "Please enter password"
+read -s Password
+
+int float double boolean array arraylit map
+
+number string list map
+
+Conditions
+-----------------
+Ansible does not gaurentee modules/collections for everything in linux.
+
+NAME=$()
+
+How can you run a command and take the output into variable
