@@ -72,7 +72,7 @@ How to create access key and securitykey
 
 1.create a new user in aws Iam
 2.go to secuirty creditionals
-3. create a access key
+3.create a access key
 4.copy the creditionals and region
 
 
